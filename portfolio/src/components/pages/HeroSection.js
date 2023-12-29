@@ -23,6 +23,14 @@ export default function HeroSection(){
             className="font-maven text-lg"
             repeat={Infinity}
           />
+          <div className="flex">
+            <button className="px-4 py-2 bg-red-500 mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto md:mx-0 md:mr-3 ">
+              CONTACT ME
+            </button>
+            <button className="px-4 py-2 bg-red-500 mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto md:mx-0">
+              DOWNLOAD CV
+            </button>
+          </div>
         </div>
         <div className="hidden md:w-1/2"></div>
       </div>
