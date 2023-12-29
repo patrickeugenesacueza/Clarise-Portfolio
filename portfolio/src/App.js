@@ -12,6 +12,7 @@ function App() {
       <div className="px-10 flex flex-col min-h-screen">
         <Nav />
         <HeroSection />
+
       </div>
     </>
   );
