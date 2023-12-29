@@ -4,10 +4,9 @@ import Button from "./Button";
 export default function Nav() {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "Service", link: "/" },
-    { name: "Testimonial", link: "/" },
+    { name: "About Me", link: "/" },
     { name: "Career", link: "/" },
-    { name: "Experience", link: "/" },
+    { name: "Achievements", link: "/" },
   ];
   let [open, setOpen] = useState(false);
 
@@ -36,7 +35,7 @@ export default function Nav() {
             <li key={Link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
                 href={Link.link}
-                className="text-gray-800 hover:text-gray-400 duration-500"
+                className="text-gray-800 hover:text-[#5f2568] duration-500"
               >
                 {Link.name}
               </a>
