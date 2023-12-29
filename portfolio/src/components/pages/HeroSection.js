@@ -4,17 +4,15 @@ import { TypeAnimation } from "react-type-animation";
 export default function HeroSection(){
     return (
       <div className=" bg-[#fff] h-[100vh] pt-[5rem] px-0 flex md:px-[8rem]">
-        <div className="w-1/2  p-8 flex flex-col text-justify py-[12rem]">
+        <div className="w-full p-0 text-center md:w-1/2 md:text-justify flex flex-col py-44">
           <div className="font-maven text-2xl mb-1">hello, I'm</div>
           <div className="font-maven text-[3.2rem] font-bold mb-1">
             Clarise Ann T. Duque
           </div>
-          {/* <div className="font-maven text-lg">Financial Management</div> */}
           <TypeAnimation
             sequence={[
-              // Same substring at the start will only be typed out once, initially
               "Account Payables",
-              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              1000,
               "Account Receivables",
               1000,
               "Assistant Accountant Officer",
@@ -26,7 +24,7 @@ export default function HeroSection(){
             repeat={Infinity}
           />
         </div>
-        <div className="w-1/2"></div>
+        <div className="hidden md:w-1/2"></div>
       </div>
     );
 }
