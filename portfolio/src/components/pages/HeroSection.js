@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import Link from "../Link.js";
 
 export default function HeroSection(){
     return (
@@ -23,13 +24,39 @@ export default function HeroSection(){
             className="font-maven text-lg"
             repeat={Infinity}
           />
-          <div className="flex">
-            <button className="px-4 py-2 bg-[#fff] mt-3.5 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] border- rounded-3xl mx-auto md:mx-0 md:mr-3 ">
+          <div className="mb-2">
+            <button className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] border- rounded-3xl mx-auto md:mx-0 md:mr-3 ">
               CONTACT ME
             </button>
             <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto md:mx-0">
               DOWNLOAD CV
             </button>
+          </div>
+          <div className="m-auto flex md:flex md:m-0">
+            <div className="mr-2">
+              <Link
+                url="https://www.facebook.com/clacla.patpat"
+                icon="logo-facebook"
+                iconSize="large"
+                iconColor="#9b6c9a"
+              />
+            </div>
+            <div className="mr-2">
+              <Link
+                url="https://www.linkedin.com/in/clarise-duque-52a087262/"
+                icon="logo-linkedin"
+                iconSize="large"
+                iconColor="#9b6c9a"
+              />
+            </div>
+            <div>
+              <Link
+                url="https://twitter.com/i/flow/login?redirect_after_login=%2FYujinCla2017"
+                icon="logo-twitter"
+                iconSize="large"
+                iconColor="#9b6c9a"
+              />
+            </div>
           </div>
         </div>
         <div className="hidden md:w-1/2"></div>
