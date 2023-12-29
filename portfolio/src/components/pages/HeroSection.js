@@ -24,7 +24,7 @@ export default function HeroSection(){
             repeat={Infinity}
           />
           <div className="flex">
-            <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto md:mx-0 md:mr-3 ">
+            <button className="px-4 py-2 bg-[#fff] mt-3.5 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] border- rounded-3xl mx-auto md:mx-0 md:mr-3 ">
               CONTACT ME
             </button>
             <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto md:mx-0">
