@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Nav() {
   let Links = [
     { name: "Home", link: "/" },
-    { name: "About Me", link: "/" },
+    { name: "About", link: "/" },
     { name: "Career", link: "/" },
     { name: "Achievements", link: "/" },
   ];
@@ -41,7 +41,7 @@ export default function Nav() {
               </a>
             </li>
           ))}
-          <Button>Download CV</Button>
+          <Button>Contact</Button>
         </ul>
       </div>
     </div>
