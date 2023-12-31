@@ -8,7 +8,7 @@ export default function AboutMeSection() {
       <div className="italic text-[#87588e] text-center text-2xl mb-4">
         <span>"Preparation meets opportunity, luck happens" -Seneca</span>
       </div>
-      <div className="flex flex-col md:flex-row items-start justify-start mt-[5em]">
+      <div className="flex flex-col md:flex-row items-start justify-start mt-[4em] md:mt-[5em]">
         <div className="w-full md:w-1/5 md:h-[30vh] mb-4 md:mb-0">
           <img
             src={aboutImg}
