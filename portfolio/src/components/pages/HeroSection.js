@@ -1,8 +1,10 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Link from "../Link.js";
+// import heroImg from "/";
 
 export default function HeroSection() {
+  // const heroImg = require("../../image/heroProfile.png");
   return (
     <div className="bg-[#fff] h-[80vh] pt-[5rem] px-0 md:px-[8rem] lg:text-start mx-auto w-full flex md:flex md:items-center">
       <div className="w-full  text-center md:w-1/2 md:text-justify flex flex-col pt-[5em] pb-[6em] md:py-[7em] lg:py-10">
@@ -61,7 +63,14 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="hidden md:w-1/2"></div>
+      <div className="hidden md:w-1/2 h-full">
+        <img
+          src={require("../../image/heroProfile.png").default}
+          width="100"
+          height="100"
+          alt="about me"
+        />
+      </div>
     </div>
   );
 }
