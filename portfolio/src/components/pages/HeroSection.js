@@ -9,7 +9,7 @@ export default function HeroSection() {
   const heroImg = "./financeImage.png";
 
   return (
-    <div className="bg-[#fff] h-[90vh] pt-[5rem] px-0 md:px-[10.5rem] lg:text-start  w-full flex md:flex md:items-center">
+    <div className="bg-[#fff] h-[80vh] md:h-[90vh] lg:h-[90vh] pt-[5rem] px-0 md:px-[10.5rem] lg:text-start  w-full flex md:flex md:items-center">
       <div className="w-full text-center md:w-1/2 md:text-justify flex flex-col pt-[5em] pb-[6em] md:py-[7em] lg:py-10">
         <div className="font-maven text-2xl mb-1 md:text-4xl 2xl:text-[4rem] 2xl:mb-10">
           hello, I'm
@@ -28,7 +28,7 @@ export default function HeroSection() {
           ]}
           wrapper="span"
           speed={50}
-          className="font-maven text-2xl md:text-4xl 2xl:text-[3rem] 2xl:mb-5"
+          className="font-serif text-[#495057] text-xl md:text-4xl 2xl:text-[3rem] 2xl:mb-5"
           repeat={Infinity}
         />
         <div className="mb-2">
@@ -67,7 +67,7 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hidden md:block md:w-1/2 h-full">
-        <img src={heroImg} alt="about me" className="w-full h-full" />
+        <img src={heroImg} alt="illustrator character image" className="w-full h-full" />
       </div>
     </div>
   );

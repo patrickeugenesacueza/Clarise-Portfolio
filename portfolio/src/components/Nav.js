@@ -32,7 +32,7 @@ export default function Nav() {
         >
           {/* Use ml-auto to move the ul to the right */}
           {Links.map((Link) => (
-            <li key={Link.name} className="md:ml-8 text-xl md:my-0 my-7">
+            <li key={Link.name} className="md:ml-8 text-md md:my-0 my-7">
               <a
                 href={Link.link}
                 className="text-gray-800 hover:text-[#5f2568] duration-500"
