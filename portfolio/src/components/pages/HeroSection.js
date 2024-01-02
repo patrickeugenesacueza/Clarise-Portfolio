@@ -23,7 +23,7 @@ export default function HeroSection() {
             1000,
             "Account Receivables",
             1000,
-            "Assistant Accountant Officer",
+            "Assistant Account Officer",
             1000,
           ]}
           wrapper="span"
@@ -39,7 +39,7 @@ export default function HeroSection() {
             DOWNLOAD CV
           </button>
         </div>
-        <div className="m-auto flex md:flex md:m-0">
+        <div className="m-auto z-0 flex md:flex md:m-0">
           <div className="mr-2">
             <Link
               url="https://www.facebook.com/clacla.patpat"

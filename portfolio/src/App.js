@@ -3,6 +3,7 @@ import "./App.css";
 import Nav from "./components/Nav.js";
 import HeroSection from "./components/pages/HeroSection.js";
 import AboutMeSection from "./components/pages/AboutMeSection.js";
+import SkillSection from "./components/pages/SkillSection.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Nav />
         <HeroSection />
         <AboutMeSection/>
+        <SkillSection/>
       </div>
     </>
   );

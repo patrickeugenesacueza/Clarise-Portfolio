@@ -13,7 +13,7 @@ const Link = ({ url, icon, iconSize, iconColor, hoverColor }) => {
         target="_blank"
         rel="noopener noreferrer"
         className="relative block"
-        style={{ overflow: "hidden" }}
+        style={{ overflow: "" }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
