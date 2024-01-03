@@ -6,7 +6,7 @@ export default function Nav() {
     { name: "Home", link: "/" },
     { name: "About", link: "/" },
     { name: "Skills", link: "/" },
-    { name: "Career", link: "/" },
+    { name: "Experience", link: "/" },
     { name: "Achievements", link: "/" },
   ];
 
