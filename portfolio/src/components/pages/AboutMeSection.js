@@ -4,7 +4,7 @@ export default function AboutMeSection() {
   const aboutImg = "./aboutImage.jpg";
 
   return (
-    <div className="py-5 border-t-[2px] z-0 bg-[#fff] shadow-md w-full h-[auto] md:h-[90vh] lg:h-[60vh] 2xl:[50vh] px-0 text-center md:px-[10.5rem] lg:px-[10.5rem]">
+    <div className="py-5 border-t-[2px] z-0 bg-[#fff] shadow-md w-full h-[auto] md:h-[90vh] lg:h-[75vh] xl:h-[50vh] 2xl:h-[50vh] px-0 text-center md:px-[10.5rem] lg:px-[10.5rem]">
       <div className="italic text-[#87588e] text-center text-2xl mb-4">
         <span>"Preparation meets opportunity, luck happens" -Seneca</span>
       </div>
