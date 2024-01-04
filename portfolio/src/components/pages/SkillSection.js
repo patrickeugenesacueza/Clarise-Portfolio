@@ -37,7 +37,7 @@ export default function SkillSection(){
                     size="large"
                   ></ion-icon>
                 </div>
-                <div className="">Communicative</div>
+                <div className="">Vocal</div>
               </div>
               <div className="bg-[#fff] border-[.50px] border-[#b2bbc3] px-24 py-[55px] rounded-md text-center hover:text-white hover:bg-[#9b6c9a] hover:duration-500">
                 <div>
