@@ -3,7 +3,7 @@ import React from "react";
 export default function SkillSection(){
     return (
       <>
-        <div className="py-[7rem] b z-0 bg-[#fff] w-full h-[auto] md:h-[90vh] lg:h-[75vh] xl:h-[50vh] 2xl:h-[50vh] px-[2em] md:px-[10.5rem]">
+        <div className="py-[7rem] b z-0 bg-[#fff] w-full h-[auto] md:h-[90vh] lg:h-[90vh] xl:h-[90vh] 2xl:h-[90vh] px-[2em] md:px-[10.5rem]">
           <div className="item-center text-center">
             <div>
               <span className="font-poppins font-medium text-[15px] text-[#9b9696]">

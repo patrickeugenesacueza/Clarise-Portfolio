@@ -17,7 +17,7 @@ export default function ExperienceSection() {
     <>
       <div className="py-[7rem] b z-0 bg-[#b37eb5] w-full h-[auto] md:h-[130vh] lg:h-[130vh] xl:h-[140vh] 2xl:h-[90vh] px-[2em] md:px-[10.5rem]">
         <h1 className="text-justify md:text-center lg:text-center 2xl:text-center mb-5 text-2xl font-poppins font-bold text-[30px] text-[#fff]">
-          TIMELINE
+          EXPERIENCE
         </h1>
         <VerticalTimeline>
           {timelineElements.map((element) => {
