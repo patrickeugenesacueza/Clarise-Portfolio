@@ -23,7 +23,6 @@
   color: rgb(201, 251, 255);
 }
 
-
 @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {
     display: block !important;
