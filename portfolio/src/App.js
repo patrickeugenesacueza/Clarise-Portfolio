@@ -5,6 +5,7 @@ import HeroSection from "./components/pages/HeroSection.js";
 import AboutMeSection from "./components/pages/AboutMeSection.js";
 import SkillSection from "./components/pages/SkillSection.js";
 import ExperienceSection from "./components/pages/ExperienceSection.js";
+import ContactSection from "./components/pages/ContactSection.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutMeSection/>
         <SkillSection/>
         <ExperienceSection/>
+        <ContactSection/>
       </div>
     </>
   );
