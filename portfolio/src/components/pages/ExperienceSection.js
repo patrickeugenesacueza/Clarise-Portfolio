@@ -35,8 +35,11 @@ export default function ExperienceSection() {
                 iconStyle={isWorkIcon ? WorkIconStyles : WorkIconStyles}
                 icon={isWorkIcon ? <WorkIcon /> : <InternIcon />}
               >
-                <h3 className="pt-[0.25em]">{element.title} </h3>
-                <h5 className="vertical-timeline-element-subtitle">
+                <h3 className="pt-[0.25em] font-bold">{element.title} </h3>
+                <h5
+                  className="vertical-timeline-element-subtitle"
+                  class="italic"
+                >
                   {element.location}
                 </h5>
                 <p className="pt-[1.5em] pb-[2em]">{element.description}</p>

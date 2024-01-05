@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Roboto:wght@100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
   font-family: 'Poppins';
@@ -9,16 +12,11 @@
 }
 
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
 }
-
 .date {
   color: rgb(201, 251, 255);
 }
