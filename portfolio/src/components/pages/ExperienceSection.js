@@ -20,7 +20,7 @@ export default function ExperienceSection() {
           EXPERIENCE
         </h1>
         <VerticalTimeline>
-          {timelineElements.map((element) => {
+          {timelineElements.map((element, index) => {
             let isWorkIcon = element.icon === "work";
             let isInternIcon = element.icon === "intern";
             let showButton =
@@ -29,7 +29,7 @@ export default function ExperienceSection() {
               element.buttonText !== "";
             return (
               <VerticalTimelineElement
-                key={element.key}
+                key={element.key || index}
                 date={element.date}
                 dateClassName="date"
                 iconStyle={isWorkIcon ? WorkIconStyles : WorkIconStyles}
@@ -38,7 +38,7 @@ export default function ExperienceSection() {
                 <h3 className="pt-[0.25em] font-bold">{element.title} </h3>
                 <h5
                   className="vertical-timeline-element-subtitle"
-                  class="italic"
+                  // class="italic"
                 >
                   {element.location}
                 </h5>
