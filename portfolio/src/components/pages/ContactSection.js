@@ -22,8 +22,8 @@ export default function ContactSection() {
             Get In Touch With Me
           </span>
         </div>
-        <div className="relative w-[1000px] h-[500px] bg-[#fff] m-auto rounded-md shadow-lg border border-[#adb5bd80] flex z-10">
-          <div className="h-full w-3/5 bg-[#fff] border-r-2 p-4">
+        <div className="relative w-[500px] md:w-[1000px] l:w-[1000px] xl:w-[1000px] 2xl:w-[1000px] h-[500px] bg-[#fff] m-auto rounded-md shadow-lg border border-[#adb5bd80] flex z-10">
+          <div className="h-full w-full md:w-3/5 l:w-3/5 xl:w-3/5 2xl:w-3/5 bg-[#fff] border-r-2 p-4">
             <h6 className="font-poppins font-medium text-[15px] text-[#9b9696]">
               Available 24/7
             </h6>
@@ -32,7 +32,7 @@ export default function ContactSection() {
             </h2>
             <Form />
           </div>
-          <div className="h-full w-2/5 bg-[#fff] px-[2em] pt-[7em]">
+          <div className="h-full w-2/5 bg-[#fff] px-[2em] pt-[7em] hidden md:block l:block xl:block 2xl:block">
             {/* 1st row */}
             <div className="flex mb-6 w-full">
               <div>
