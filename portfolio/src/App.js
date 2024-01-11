@@ -5,7 +5,9 @@ import HeroSection from "./components/pages/HeroSection.js";
 import AboutMeSection from "./components/pages/AboutMeSection.js";
 import SkillSection from "./components/pages/SkillSection.js";
 import ExperienceSection from "./components/pages/ExperienceSection.js";
+import AchievementSection from "./components/pages/AchievementSection.js";
 import ContactSection from "./components/pages/ContactSection.js";
+import FooterSection from "./components/pages/FooterSection.js";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <AboutMeSection/>
         <SkillSection/>
         <ExperienceSection/>
+        <AchievementSection/>
         <ContactSection/>
+        <FooterSection/>
       </div>
     </>
   );
