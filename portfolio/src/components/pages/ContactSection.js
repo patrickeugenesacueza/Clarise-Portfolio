@@ -11,7 +11,7 @@ export default function ContactSection() {
   // Your component logic here
   return (
     <div className="pt-[3rem] pb-0 bg-[#fff] w-full h-[70vh]">
-      <div className="h-2/5 w-full bg-[#fff] px-[2em] md:px-[10.5em]">
+      <div className="h-2/5 w-full bg-[#fff] px-[2em] md:px-[10.5em] z-[-1]">
         <div className="text-center">
           <span className="font-poppins font-medium text-[15px] text-[#9b9696]">
             Contact
@@ -22,7 +22,7 @@ export default function ContactSection() {
             Get In Touch With Me
           </span>
         </div>
-        <div className="relative w-[500px] md:w-[1000px] l:w-[1000px] xl:w-[1000px] 2xl:w-[1000px] h-[500px] bg-[#fff] m-auto rounded-md shadow-lg border border-[#adb5bd80] flex z-10">
+        <div className="relative w-[350px] md:w-[1000px] l:w-[1000px] xl:w-[1000px] 2xl:w-[1000px] h-[500px] bg-[#fff] m-auto rounded-md shadow-lg border border-[#adb5bd80] flex z-10">
           <div className="h-full w-full md:w-3/5 l:w-3/5 xl:w-3/5 2xl:w-3/5 bg-[#fff] border-r-2 p-4">
             <h6 className="font-poppins font-medium text-[15px] text-[#9b9696]">
               Available 24/7
