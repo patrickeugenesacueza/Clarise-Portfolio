@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../Resume/resume.pdf";
 
 export default function AboutMeSection() {
   const aboutImg = "./aboutImage.jpg";
@@ -30,9 +31,11 @@ export default function AboutMeSection() {
             and skills to contribute meaningfully to the financial sector.
           </div>
           <div>
-            <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em]">
-              DOWNLOAD CV
-            </button>
+            <a href={resume} download="Resume">
+              <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em]">
+                DOWNLOAD CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
