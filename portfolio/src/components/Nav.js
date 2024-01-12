@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 import Button from "./Button";
+import HeroSection from "./pages/HeroSection";
+import AboutMeSection from "./pages/AboutMeSection";
+import SkillSection from "./pages/SkillSection";
+import ExperienceSection from "./pages/ExperienceSection";
+import AchievementSection from "./pages/AchievementSection";
+import ContactSection from "./pages/ContactSection";
+import FooterSection from "./pages/FooterSection";
+
+
 
 export default function Nav() {
   let Links = [
