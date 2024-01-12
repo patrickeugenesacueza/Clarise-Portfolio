@@ -74,7 +74,7 @@ export default function Nav() {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="text-gray-800 hover:text-[#5f2568] duration-500"
+                  className="text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer"
                 >
                   {Link.name}
                 </ScrollLink>

@@ -3,6 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 import Link from "../Link.js";
 // import imageFrom from "../../../public/image/heroProfile";
 // import heroImg from "/";
+import resume from "../../Resume/resume.pdf"
 
 export default function HeroSection() {
 
@@ -35,9 +36,11 @@ export default function HeroSection() {
           <button className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] ">
             CONTACT ME
           </button>
-          <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em]">
-            DOWNLOAD CV
-          </button>
+          <a href={resume} download="Resume">
+            <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em]">
+              DOWNLOAD CV
+            </button>
+          </a>
         </div>
         <div className="m-auto z-0 flex md:flex md:m-0">
           <div className="mr-2">
@@ -67,7 +70,11 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="hidden md:block md:w-1/2 h-full">
-        <img src={heroImg} alt="illustrator character image" className="w-full h-full" />
+        <img
+          src={heroImg}
+          alt="illustrator character image"
+          className="w-full h-full"
+        />
       </div>
     </div>
   );
