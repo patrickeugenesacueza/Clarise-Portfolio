@@ -14,13 +14,13 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen">
         <Nav />
-        <HeroSection />
+        {/* <HeroSection />
         <AboutMeSection/>
         <SkillSection/>
         <ExperienceSection/>
         <AchievementSection/>
         <ContactSection/>
-        <FooterSection/>
+        <FooterSection/> */}
       </div>
     </>
   );
