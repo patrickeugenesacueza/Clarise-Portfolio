@@ -10,7 +10,10 @@ import { ReactComponent as ContactNumberIcon } from "../../contactNumberIcon.svg
 export default function ContactSection() {
   // Your component logic here
   return (
-    <div className="pt-[3rem] pb-0 bg-[#fff] w-full h-[70vh]">
+    <div
+      className="pt-[3rem] pb-0 bg-[#fff] w-full h-[70vh]"
+      id="contactSection"
+    >
       <div className="h-2/5 w-full bg-[#fff] px-[2em] md:px-[10.5em] z-[-1]">
         <div className="text-center">
           <span className="font-poppins font-medium text-[15px] text-[#9b9696]">
