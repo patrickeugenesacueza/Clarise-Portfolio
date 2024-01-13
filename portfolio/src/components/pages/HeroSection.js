@@ -1,13 +1,20 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Link from "../Link.js";
-// import imageFrom from "../../../public/image/heroProfile";
-// import heroImg from "/";
-import resume from "../../Resume/resume.pdf"
+import resume from "../../Resume/resume.pdf";
+import { Link as ScrollLink, scroller } from "react-scroll";
+
 
 export default function HeroSection() {
-
   const heroImg = "./financeImage.png";
+
+const scrollToContact = () => {
+  // Scroll to the ContactSection when the button is clicked
+  scroller.scrollTo("contactSection", {
+    smooth: true,
+    duration: 2000,
+  });
+};
 
   return (
     <div className="bg-[#fff] h-[80vh] md:h-[90vh] lg:h-[90vh] pt-[5rem] px-0 md:px-[10.5rem] lg:text-start  w-full flex md:flex md:items-center">
@@ -33,7 +40,10 @@ export default function HeroSection() {
           repeat={Infinity}
         />
         <div className="mb-2">
-          <button className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] ">
+          <button
+            onClick={scrollToContact}
+            className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] "
+          >
             CONTACT ME
           </button>
           <a href={resume} download="Resume">
