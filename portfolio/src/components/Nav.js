@@ -73,7 +73,7 @@ export default function Nav() {
                   spy={true}
                   smooth={true}
                   offset={-70}
-                  duration={500}
+                  duration={1500}
                   className="text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer"
                 >
                   {Link.name}
