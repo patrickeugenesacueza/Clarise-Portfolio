@@ -9,6 +9,7 @@ import Grid from "@mui/material/Grid";
 import cert1 from "../../image/cert1.png"
 import cert2 from "../../image/cert2.jpg";
 import cert3 from "../../image/cert3.jpg";
+import cert4 from "../../image/cert4.png";
 
 export default function AchievementSection() {
   return (
@@ -180,21 +181,22 @@ export default function AchievementSection() {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="green iguana"
+              image={cert4}
+              title="Expanding the possibilities for the future success"
             />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
-                title
+                Expanding the possibilities for the future success
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                "Spectrum of Opportunities: Expanding the Possibilities for
+                Future Success" encapsulates a transformative journey that
+                broadens horizons and opens doors to unparalleled opportunities.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://drive.google.com/file/d/11kTtBNSVZcJjD4baUgQUrtNAgRNGZfC5/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
