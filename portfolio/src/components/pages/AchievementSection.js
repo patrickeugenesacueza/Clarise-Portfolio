@@ -7,6 +7,8 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import cert1 from "../../image/cert1.png"
+import cert2 from "../../image/cert2.jpg";
+import cert3 from "../../image/cert3.jpg";
 
 export default function AchievementSection() {
   return (
@@ -15,19 +17,24 @@ export default function AchievementSection() {
         {/* 1st certificate */}
         <Grid item xs={12} md={4} className="flex justify-center">
           <Card sx={{ maxWidth: 345 }} className="shadow-2xl">
-            <CardMedia sx={{ height: 140 }} image="" title="green iguana" />
+            <CardMedia
+              sx={{ height: 140 }}
+              image={cert2}
+              title="Gawad Karunungan"
+            />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
-                title
+                Semester award: Gawad Karunungan
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                The Gawad Karunungan Award is a prestigious recognition bestowed
+                upon an outstanding student in the Bachelor of Science in
+                Financial Management program.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://drive.google.com/file/d/122Wz4RRzYc6OQiOedPNwBpBTTYLhxOXv/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -72,21 +79,22 @@ export default function AchievementSection() {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="green iguana"
+              image={cert3}
+              title="Overall Top 2"
             />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
-                title
+                Phoenix Awards: Overall Top 2 (GWA 1.3125)
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                The Gawad Karunungan Award is a prestigious recognition bestowed
+                upon an outstanding student in the Bachelor of Science in
+                Financial Management program.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://drive.google.com/file/d/1240IuwpNxauhr3G-aCS4rY76-v2fS7Sc/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
