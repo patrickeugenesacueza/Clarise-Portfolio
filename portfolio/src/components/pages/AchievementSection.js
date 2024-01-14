@@ -62,7 +62,6 @@ export default function AchievementSection() {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                
               >
                 <Button size="small">VIEW</Button>
               </a>
@@ -104,23 +103,33 @@ export default function AchievementSection() {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="https://udemy-certificate.s3.amazonaws.com/image/UC-7b8dfb81-ab73-46e8-82e7-657eac82c8d6.jpg"
+              image="https://udemy-certificate.s3.amazonaws.com/image/UC-3521c70d-7f8c-4c4c-a5df-bc5bf0848414.jpg?v=1690617477000"
               title="green iguana"
               loading="lazy"
             />
 
             <CardContent className="bg-[#b37eb5]">
-              <Typography gutterBottom variant="h5" component="div" className="font-bold">
-                title
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                className="font-bold"
+              >
+                Financial Analysis & Modeling | Automobile Section
               </Typography>
-              <Typography variant="body2" color="text.secondary" className="font-bold">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                className="font-bold"
+              >
+                The "Financial Analysis & Modeling | Automobile Section" course
+                delves into the intricacies of financial analysis and modeling
+                within the context of the automotive industry.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.udemy.com/certificate/UC-3521c70d-7f8c-4c4c-a5df-bc5bf0848414/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
