@@ -7,13 +7,13 @@ export default function Form(){
           {/* <label></label> */}
           <input
             type="text"
-            placeholder="Enter Email"
+            placeholder="sample@email.com"
             className="w-full h-12 bg-[#fff] text-[#495057] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4"
           />
 
           <input
             type="text"
-            placeholder="Enter Subject"
+            placeholder="Subject"
             className="w-full h-12 bg-[#fff] text-[#495057] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4"
           />
 
