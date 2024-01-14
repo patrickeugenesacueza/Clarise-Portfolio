@@ -6,6 +6,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
+import cert1 from "../../image/cert1.png"
 
 export default function AchievementSection() {
   return (
@@ -14,11 +15,7 @@ export default function AchievementSection() {
         {/* 1st certificate */}
         <Grid item xs={12} md={4} className="flex justify-center">
           <Card sx={{ maxWidth: 345 }} className="shadow-2xl">
-            <CardMedia
-              sx={{ height: 140 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="green iguana"
-            />
+            <CardMedia sx={{ height: 140 }} image="" title="green iguana" />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
                 title
@@ -45,21 +42,22 @@ export default function AchievementSection() {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
-              title="green iguana"
+              image={cert1}
+              title="How-to-Series: Building a Path towards Financial Prowess"
             />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
-                title
+                How-to-Series: Building a Path towards Financial Prowess
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                The "How-to-Series: Building a Path towards Financial Prowess"
+                is a comprehensive guide designed to empower individuals on
+                their journey to financial mastery.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://drive.google.com/file/d/12K1N2rutDGOTq6ML6brOGVmoGQysE6yw/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -144,21 +142,22 @@ export default function AchievementSection() {
           <Card sx={{ maxWidth: 345 }}>
             <CardMedia
               sx={{ height: 140 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
+              image="https://udemy-certificate.s3.amazonaws.com/image/UC-977ceee6-810a-44e2-ba77-45335bfbb081.jpg?v=1689475213000"
               title="green iguana"
             />
             <CardContent className="bg-[#b37eb5]">
               <Typography gutterBottom variant="h5" component="div">
-                title
+                Introduction to Forex-learn to trade forex
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                "Introduction to Forex - Learn to Trade Forex" is a
+                comprehensive course designed to provide participants with
+                foundational knowledge and practical skills.
               </Typography>
             </CardContent>
             <CardActions className="bg-[#b37eb5]">
               <a
-                href="https://www.facebook.com/"
+                href="https://www.udemy.com/certificate/UC-977ceee6-810a-44e2-ba77-45335bfbb081/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
