@@ -4,7 +4,6 @@ import Link from "../Link.js";
 import resume from "../../Resume/resume.pdf";
 import { Link as ScrollLink, scroller } from "react-scroll";
 
-
 export default function HeroSection() {
   const heroImg = "./financeImage.png";
 
@@ -28,7 +27,7 @@ const scrollToContact = () => {
         <TypeAnimation
           sequence={[
             "Account Payables",
-            1000,
+            1000, 
             "Account Receivables",
             1000,
             "Assistant Account Officer",
