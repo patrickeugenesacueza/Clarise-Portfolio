@@ -21,6 +21,12 @@ export default function Nav() {
 
   let [open, setOpen] = useState(false);
 
+  const [activeLink, setActiveLink] = useState(null);
+  
+    const handleLinkClick = (name) => {
+      setActiveLink(name);
+    };
+
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
@@ -74,7 +80,10 @@ export default function Nav() {
                   smooth={true}
                   offset={-70}
                   duration={1500}
-                  className="text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer"
+                  className={`text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer focus:outline-none ${
+                    activeLink === Link.name ? "active-link text-[#fca0d3]" : ""
+                  }`}
+                  onClick={() => handleLinkClick(Link.name)}
                 >
                   {Link.name}
                 </ScrollLink>
