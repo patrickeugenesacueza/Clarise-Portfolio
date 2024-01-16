@@ -9,6 +9,7 @@ import ExperienceSection from "./pages/ExperienceSection";
 import AchievementSection from "./pages/AchievementSection";
 import ContactSection from "./pages/ContactSection";
 import FooterSection from "./pages/FooterSection";
+import cert4 from "../image/text-icon.png";
 
 export default function Nav() {
   let Links = [
@@ -56,10 +57,12 @@ export default function Nav() {
       <div className="shadow-md w-full bg-[#fff] z-20 fixed top-0 left-0 px-5 md:px-40 ">
         <div className="bg-[#fff] z-20 md:flex py-4">
           <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800">
-            <span className="text-3xl text-indigo-600 mr-1 pt-2">
+            {/* <span className="text-3xl text-indigo-600 mr-1 pt-2">
               <ion-icon name="logo-google"></ion-icon>
-            </span>
-            CLARISE
+            </span> */}
+            <img
+            src={cert4}></img>
+           
           </div>
           <div
             onClick={() => setOpen(!open)}
