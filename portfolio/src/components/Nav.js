@@ -60,9 +60,7 @@ export default function Nav() {
             {/* <span className="text-3xl text-indigo-600 mr-1 pt-2">
               <ion-icon name="logo-google"></ion-icon>
             </span> */}
-            <img
-            src={cert4}></img>
-           
+            <img src={cert4}></img>
           </div>
           <div
             onClick={() => setOpen(!open)}
@@ -84,7 +82,9 @@ export default function Nav() {
                   offset={-70}
                   duration={1500}
                   className={`text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer focus:outline-none ${
-                    activeLink === Link.name ? "active-link text-[#fca0d3]" : ""
+                    activeLink === Link.name
+                      ? "active-link  border-[#5f2568] border-b-2"
+                      : ""
                   }`}
                   onClick={() => handleLinkClick(Link.name)}
                 >
