@@ -58,7 +58,7 @@ const handleSubmit = (e) => {
           />
 
           <textarea
-            placeholder="Message"
+            placeholder="Name"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             className="w-full h-48 bg-[#fff] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4 resize-none"
