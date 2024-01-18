@@ -35,7 +35,7 @@ export default function HeroSection() {
         <div className="font-maven text-2xl mb-1 md:text-2xl 2xl:text-2xl 2xl:mb-10">
           hello, I'm
         </div>
-        <div className="font-maven text-[3.2rem] font-bold mb-1 text-[#b37eb5] md:text-text-[3.2rem] 2xl:text-[4rem] 2xl:mb-10">
+        <div className="font-maven text-2xl font-bold mb-1 text-[#b37eb5] md:text-2xl 2xl:text-[4rem] 2xl:mb-10">
           Clarise Ann T. Duque
         </div>
         <TypeAnimation
@@ -49,13 +49,13 @@ export default function HeroSection() {
           ]}
           wrapper="span"
           speed={50}
-          className="font-serif text-[#495057] text-xl md:text-4xl 2xl:text-[3rem] 2xl:mb-5"
+          className="font-serif text-[#495057] text-xl md:text-xl 2xl:text-xl 2xl:mb-5"
           repeat={Infinity}
         />
         <div className="mb-2">
           <button
             onClick={scrollToContact}
-            className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] "
+            className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-4 2xl:py-2 2xl:rounded-[4em] "
           >
             CONTACT ME
           </button>
