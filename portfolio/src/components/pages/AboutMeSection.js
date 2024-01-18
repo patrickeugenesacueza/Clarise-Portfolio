@@ -1,8 +1,22 @@
 import React from "react";
+import { useState } from "react";
 import resume from "../../Resume/resume.pdf";
 
 export default function AboutMeSection() {
   const aboutImg = "./aboutImage.jpg";
+
+    const [loading, setLoading] = useState(false);
+
+    const handleDownload = () => {
+      setLoading(true);
+
+      // Simulating a download delay (replace this with your actual download logic)
+      setTimeout(() => {
+        // After some delay (simulating download completion), set loading back to false
+        setLoading(false);
+      }, 2000); // Adjust the duration as needed for your use case
+    };
+
 
   return (
     <div className="py-5 border-t-[2px] z-0 bg-[#fff] shadow-md w-full h-[auto] md:h-[90vh] lg:h-[90vh] xl:h-[70vh] 2xl:h-[50vh] px-0 text-center md:px-[10.5rem] lg:px-[10.5rem]">
@@ -32,8 +46,15 @@ export default function AboutMeSection() {
           </div>
           <div>
             <a href={resume} download="Resume">
-              <button className="px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em]">
-                DOWNLOAD CV
+              <button
+                className={`buttonload ${
+                  loading ? "loading" : ""
+                } px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] relative`}
+                onClick={handleDownload}
+                disabled={loading}
+              >
+                {loading && <i className="fa fa-spinner fa-spin"></i>}
+                {loading ? "Loading" : "DOWNLOAD CV"}
               </button>
             </a>
           </div>
