@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@coreui/react": "^4.11.1",
+    "@coreui/react-pro": "^4.15.2",
     "@emailjs/browser": "^3.12.1",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",

@@ -19,6 +19,8 @@ export default function HeroSection() {
       setLoading(false);
     }, 2000); // Adjust the duration as needed for your use case
   };
+
+  
   const scrollToContact = () => {
     // Scroll to the ContactSection when the button is clicked
     scroller.scrollTo("contactSection", {
