@@ -55,7 +55,7 @@ export default function HeroSection() {
         <div className="mb-2">
           <button
             onClick={scrollToContact}
-            className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-xl 2xl:px-4 2xl:py-2 2xl:rounded-[4em] "
+            className="px-4 py-2 bg-[#fff] mt-3.5 mr-2 font-bold font-maven text-[#b37eb5] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#b37eb5] hover:text-[#fff] duration-500 md:mx-0 md:mr-3 2xl:text-l 2xl:px-4 2xl:py-2 2xl:rounded-[4em] "
           >
             CONTACT ME
           </button>
@@ -63,7 +63,7 @@ export default function HeroSection() {
             <button
               className={`buttonload ${
                 loading ? "loading" : ""
-              } px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-xl 2xl:rounded-[4em] relative`}
+              } px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-l 2xl:rounded-[4em] relative`}
               onClick={handleDownload}
               disabled={loading}
             >
