@@ -32,10 +32,10 @@ export default function HeroSection() {
   return (
     <div className="bg-[#fff] h-[80vh] md:h-[90vh] lg:h-[90vh] pt-[5rem] px-0 md:px-[10.5rem] lg:text-start  w-full flex md:flex md:items-center">
       <div className="w-full text-center md:w-1/2 md:text-justify flex flex-col pt-[5em] pb-[6em] md:py-[7em] lg:py-10">
-        <div className="font-maven text-2xl mb-1 md:text-4xl 2xl:text-[4rem] 2xl:mb-10">
+        <div className="font-maven text-2xl mb-1 md:text-2xl 2xl:text-2xl 2xl:mb-10">
           hello, I'm
         </div>
-        <div className="font-maven text-[3.2rem] font-bold mb-1 text-[#b37eb5] md:text-4xl 2xl:text-[4rem] 2xl:mb-10">
+        <div className="font-maven text-[3.2rem] font-bold mb-1 text-[#b37eb5] md:text-text-[3.2rem] 2xl:text-[4rem] 2xl:mb-10">
           Clarise Ann T. Duque
         </div>
         <TypeAnimation
