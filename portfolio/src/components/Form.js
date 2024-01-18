@@ -82,7 +82,7 @@ export default function Form() {
           // onClick={handleDownload}
           // disabled={loading}
           type="submit"
-          className="px-4 py-1 w-full bg-[#b37eb5] font-bold font-maven text-[#fff] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] "
+          className="px-4 py-1 w-full bg-[#b37eb5] font-bold font-maven text-[#fff] border-2 border-[#b37eb5] rounded-3xl mx-auto hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 md:mr-3 2xl:text-[1.5rem] 2xl:px-6 2xl:py-2 2xl:rounded-[4em] "
         >
           {loading && <i className="fa fa-spinner fa-spin"></i>}
           {loading ? "Sending..." : "SUBMIT"}
