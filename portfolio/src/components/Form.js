@@ -1,6 +1,31 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Form(){
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "YOUR_SERVICE_ID",
+          "template_29ta7s9 ",
+          form.current,
+          "OYuJkMpQ8a5sYGKLc"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
+    
     return (
       <div>
         <form>
