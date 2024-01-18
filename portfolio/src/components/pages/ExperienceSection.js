@@ -15,7 +15,7 @@ export default function ExperienceSection() {
   let WorkIconStyles = { background: "#5f2568" };
   return (
     <>
-      <div className="py-[3rem] b z-0 bg-[#b37eb5] w-full h-[auto] md:h-[100vh] lg:h-[100vh] xl:h-[auto] 2xl:h-[120vh] px-[2em] md:px-[10.5rem]">
+      <div className="py-[3rem] b z-0 bg-[#b37eb5] w-full h-[auto] md:h-[100vh] lg:h-[150vh] xl:h-[170vh] 2xl:h-[120vh] px-[2em] md:px-[10.5rem]">
         <h1 className="text-justify md:text-center lg:text-center 2xl:text-center mb-5 text-2xl font-poppins font-bold text-[30px] text-[#fff] tracking-[.5em]">
           EXPERIENCE
         </h1>
