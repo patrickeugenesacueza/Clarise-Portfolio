@@ -44,20 +44,18 @@ export default function AboutMeSection() {
             the dynamic world of finance. I am eager to leverage my education
             and skills to contribute meaningfully to the financial sector.
           </div>
-          <div>
-            <a href={resume} download="Resume">
-              <button
-                className={`buttonload ${
-                  loading ? "loading" : ""
-                } px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-[1.5rem] 2xl:px-6 2xl:py-4 2xl:rounded-[4em] relative`}
-                onClick={handleDownload}
-                disabled={loading}
-              >
-                {loading && <i className="fa fa-spinner fa-spin"></i>}
-                {loading ? "Loading" : "DOWNLOAD CV"}
-              </button>
-            </a>
-          </div>
+          <a href={resume} download="Resume">
+            <button
+              className={`buttonload ${
+                loading ? "loading" : ""
+              } px-4 py-2 bg-[#b37eb5] mt-3.5 font-bold font-maven text-[#fff] rounded-3xl mx-auto border-2 border-[#b37eb5] hover:bg-[#fff] hover:text-[#b37eb5] duration-500 md:mx-0 2xl:text-l 2xl:rounded-[4em] relative`}
+              onClick={handleDownload}
+              disabled={loading}
+            >
+              {loading && <i className="fa fa-spinner fa-spin"></i>}
+              {loading ? "Loading" : "DOWNLOAD CV"}
+            </button>
+          </a>
         </div>
       </div>
     </div>
