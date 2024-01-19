@@ -34,7 +34,7 @@ export default function AboutMeSection() {
         <div className="w-1/2 mx-auto md:text-left md:ml-11 mt-4 md:mt-0">
           <div className="text-center mb-10">
             <span className="font-poppins font-bold text-[30px] text-[#5f2568]">
-              Get In Touch With Me
+              About Me
             </span>
           </div>
           <div className="sm: text-justify font-poppins font-[100]">
