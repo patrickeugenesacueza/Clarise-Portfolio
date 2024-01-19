@@ -32,7 +32,7 @@ export default function AboutMeSection() {
           />
         </div>
         <div className="w-1/2 mx-auto md:text-left md:ml-11 mt-4 md:mt-0">
-          <div className="text-center mb-10">
+          <div className="text-center mb-10 md:text-left xl:text-left 2xl:text-left">
             <span className="font-poppins font-bold text-[30px] text-[#5f2568]">
               About Me
             </span>
