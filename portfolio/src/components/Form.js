@@ -60,6 +60,7 @@ export default function Form() {
           placeholder="sample@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          required
           className="w-full h-12 bg-[#fff] text-[#495057] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4"
         />
 
@@ -67,6 +68,7 @@ export default function Form() {
           type="text"
           placeholder="Name"
           value={name}
+          required
           className="w-full h-12 bg-[#fff] text-[#495057] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4"
           onChange={(e) => setName(e.target.value)}
         />
@@ -75,6 +77,7 @@ export default function Form() {
           placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          required
           className="w-full h-48 bg-[#fff] border-[1px] border-[#ced4da] py-2 px-4 rounded-md mb-4 resize-none"
         ></textarea>
 
