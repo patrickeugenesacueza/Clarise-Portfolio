@@ -31,13 +31,13 @@ export default function AboutMeSection() {
             className="w-[255px] h-[255px] lg:w-[355px] lg:h-[355px] object-cover shadow-md mx-auto md:mx-0"
           />
         </div>
-        <div className="w-1/2 mx-auto md:text-left md:ml-11 mt-4 md:mt-0">
+        <div className="w-full md:w-7/12 2xl:w-7/12 px-[2em] md:text-left md:ml-11 mt-4 md:mt-0">
           <div className="text-center mb-10 md:text-left xl:text-left 2xl:text-left">
             <span className="font-poppins font-bold text-[30px] text-[#5f2568]">
               About Me
             </span>
           </div>
-          <div className="sm: text-justify font-poppins font-[100]">
+          <div className="sm: text-justify font-poppins font-[100] mb-5">
             Hello there! I'm Clarise Ann T. Duque, a driven and accomplished
             individual with a passion for financial management. I proudly earned
             my Bachelor of Science degree in Financial Management from
