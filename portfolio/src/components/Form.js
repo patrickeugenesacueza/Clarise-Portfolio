@@ -47,6 +47,7 @@ export default function Form() {
         setName("");
         setEmail("");
         setMessage("");
+        setModalOpen(true);
       })
       .catch((error) => {
         console.error("Error sending email: ", error);
@@ -95,14 +96,6 @@ export default function Form() {
           {loading ? "Sending..." : "SUBMIT"}
         </button>
       </form>
-      <button
-        className="openModalBtn"
-        onClick={() => {
-          setModalOpen(true);
-        }}
-      >
-        Open
-      </button>
 
       {modalOpen && <Modal setOpenModal={setModalOpen} />}
     </div>
