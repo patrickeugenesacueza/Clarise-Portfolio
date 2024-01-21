@@ -74,21 +74,27 @@ export default function Nav() {
             }`}
           >
             {Links.map((Link) => (
-              <li key={Link.name} className="md:ml-8 text-md md:my-0 my-7">
+              <li
+                key={Link.name}
+                className="md:ml-8 text-md md:my-0 my-7 relative"
+              >
                 <ScrollLink
                   to={Link.link}
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={1500}
-                  className={`text-gray-800 hover:text-[#5f2568] duration-500 cursor-pointer focus:outline-none ${
+                  className={`text-gray-800 active-link duration-500 cursor-pointer focus:outline-none ${
                     activeLink === Link.name
-                      ? "active-link  border-[#5f2568] border-b-2"
-                      : ""
+                      ? "border-[#5f2568] border-b-2"
+                      : "hover:text-[#5f2568]"
                   }`}
                   onClick={() => handleLinkClick(Link.name)}
                 >
                   {Link.name}
+                  {activeLink === Link.name && (
+                    <span className="absolute bottom-0 left-0 h-[2px] bg-[#5f2568] w-full rounded-xl duration-300 transition-transform"></span>
+                  )}
                 </ScrollLink>
               </li>
             ))}
