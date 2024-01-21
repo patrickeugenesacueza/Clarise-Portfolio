@@ -7,6 +7,8 @@ import { ReactComponent as EmailIcon } from "../../emailIcon.svg";
 import { ReactComponent as ContactNumberIcon } from "../../contactNumberIcon.svg";
 
 
+
+
 export default function ContactSection() {
   // Your component logic here
   return (
@@ -98,6 +100,8 @@ export default function ContactSection() {
           title="myFrame"
         ></iframe>
       </div>
+
+      
     </div>
   );
 }

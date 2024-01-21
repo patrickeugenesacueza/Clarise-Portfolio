@@ -2,14 +2,16 @@ import React, { useState } from "react";
 
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+// import "../Modal.css"
+import Modal from "./Modal.js";
 
 export default function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
   const [loading, setLoading] = useState(false);
-
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(!open);
   const handleDownload = () => {
     setLoading(true);
 
@@ -19,6 +21,8 @@ export default function Form() {
       setLoading(false);
     }, 2000); // Adjust the duration as needed for your use case
   };
+
+  const [modalOpen, setModalOpen] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -91,6 +95,16 @@ export default function Form() {
           {loading ? "Sending..." : "SUBMIT"}
         </button>
       </form>
+      <button
+        className="openModalBtn"
+        onClick={() => {
+          setModalOpen(true);
+        }}
+      >
+        Open
+      </button>
+
+      {modalOpen && <Modal setOpenModal={setModalOpen} />}
     </div>
   );
 }
