@@ -1,5 +1,6 @@
 import React from "react";
 import "../Modal.css";
+import {ReactComponent as Check} from "../image/check-svg.svg"
 
 function Modal({ setOpenModal }) {
   const handleContinue = () => {
@@ -21,8 +22,13 @@ function Modal({ setOpenModal }) {
             X
           </button>
         </div>
+        <div>
+          <Check className="Check"/>
+        </div>
         <div className="body">
-          <p>The email has been successfully sent!</p>
+          <div>
+            <p>The email has been successfully sent!</p>
+          </div>
         </div>
       </div>
     </div>

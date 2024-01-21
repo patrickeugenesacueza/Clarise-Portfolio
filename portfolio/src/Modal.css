@@ -42,10 +42,18 @@
     border-radius: 30%;
     padding: .2em .4em;
   }
+
+  .Check {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensure block-level display for centering */
+  }
   
   .modalContainer .body {
-    flex: 50%;
-    display: flex;
+    /* flex: 50%; */
+    /* display: flex; */
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
