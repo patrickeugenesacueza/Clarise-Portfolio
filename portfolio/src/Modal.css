@@ -38,9 +38,9 @@
     font-size: 25px;
     cursor: pointer;
     margin-bottom: 1em;
-    background:grey;
-    border-radius: 10%;
-    padding: .2em .6em;
+    background:rgb(202, 198, 198);
+    border-radius: 30%;
+    padding: .2em .4em;
   }
   
   .modalContainer .body {
