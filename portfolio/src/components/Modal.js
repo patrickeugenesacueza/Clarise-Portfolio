@@ -27,7 +27,7 @@ function Modal({ setOpenModal }) {
         </div>
         <div className="body">
           <div>
-            <p>The email has been successfully sent!</p>
+            <p>The form has been successfully sent!</p>
           </div>
         </div>
       </div>
