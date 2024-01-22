@@ -93,7 +93,7 @@ export default function Nav() {
                 >
                   {Link.name}
                   {activeLink === Link.name && (
-                    <span className="absolute bottom-0 left-0 h-[2px] bg-[#5f2568] w-full rounded-xl duration-300 transition-transform"></span>
+                    <span className="absolute bottom-0 left-0 h-[2px] bg-[#5f2568] w-auto rounded-xl duration-300 transition-transform"></span>
                   )}
                 </ScrollLink>
               </li>
