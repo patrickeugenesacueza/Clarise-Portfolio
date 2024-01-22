@@ -3,11 +3,11 @@ import Link from "../Link.js";
 
 export default function FooterSection() {
   return (
-    <div className="bg-white h-[auto] md:h-[auto] lg:h-[auto] mt-[30vh] px-[10rem] py-[2rem] md:flex md:justify-between  l:flex l:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-      <div>
-        <h3 className="font-poppins text-[20px]">Developed by @Yujin </h3>
+    <div className="bg-white mx-auto h-[auto] md:h-[auto] lg:h-[auto] mt-[30vh] px-[5rem] py-[2rem] text-center md:text-left 2xl:text-left md:flex md:justify-between  l:flex l:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
+      <div className="w-full">
+        <h3 className="font-poppins text-[20px] ">Developed by @Yujin </h3>
       </div>
-      <div className="flex mt-[1em] md:mt-[-1em] l:mt-[-1em] xl:mt-[-1em] 2xl:mt-[-1em]">
+      <div className="flex text-center justify-center item-center mt-[1em] md:mt-[-1em] l:mt-[-1em] xl:mt-[-1em] 2xl:mt-[-1em]">
         <div className="mr-2">
           <Link
             url="https://www.facebook.com/clacla.patpat"
